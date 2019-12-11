@@ -1,6 +1,6 @@
 {
     "name": "beittil/yii2-admin",
-    "version: "3.2",
+    "version": "3.^",
     "description": "RBAC Auth manager for Yii2 ",
     "keywords": ["yii", "admin", "auth", "rbac", "angularjs", "rest"],
     "type": "yii2-extension",
