@@ -39,7 +39,7 @@ use dee\angular\NgView;
                         <td><span class="label label-success">{{model.name}}</span></td>
                         <td>{{model.description}}</td>
                         <td width="60px">
-                            <a ng-href="#/permission/{{model.name | escape}}"><span class="glyphicon glyphicon-eye-open"></span></a>
+                            <a ng-href="#!/permission/{{model.name | escape}}"><span class="glyphicon glyphicon-eye-open"></span></a>
                             <a href ng-click="deleteItem(model)"><span class="glyphicon glyphicon-trash"></span></a>
                         </td>
                     </tr>
