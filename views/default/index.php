@@ -109,12 +109,12 @@ $this->title= Yii::t('rbac-admin', 'RBAC Manager');
         'clientOptions' => [
             'currentUrl' => rtrim(Url::to(['']), '/'),
             'headerMenus' => [
-                '/assignment' => Yii::t('rbac-admin', 'Assignment'),
-                '/role' => Yii::t('rbac-admin', 'Role'),
-                '/permission' => Yii::t('rbac-admin', 'Permission'),
-                '/rule' => Yii::t('rbac-admin', 'Rule'),
-                '/route' => Yii::t('rbac-admin', 'Route'),
-                '/menu' => Yii::t('rbac-admin', 'Menu'),
+                '!/assignment' => Yii::t('rbac-admin', 'Assignment'),
+                '!/role' => Yii::t('rbac-admin', 'Role'),
+                '!/permission' => Yii::t('rbac-admin', 'Permission'),
+                '!/rule' => Yii::t('rbac-admin', 'Rule'),
+                '!/route' => Yii::t('rbac-admin', 'Route'),
+                '!/menu' => Yii::t('rbac-admin', 'Menu'),
             ],
         ]
     ]);
